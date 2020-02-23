@@ -23,3 +23,13 @@ psclient.o: psclient.c ps_websockets.h
 
 clean:
 	rm *.o webrtcinterface
+
+
+git g:
+	@echo "> make (git:g) [update|store]"
+git-update gu:
+	git add .
+	git commit -a -m "update information"
+	git push
+git-store gs:
+	git config credential.helper store	
