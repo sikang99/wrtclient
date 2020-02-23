@@ -5,5 +5,7 @@ This primarily means, creating a transport plugin that acts as a websocket clien
 
 ### Changelog
 - 2020/02/23 : cmake setting
+    - update FindGStreamer.cmake to setup correctly
+
 
 
